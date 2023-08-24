@@ -2,7 +2,6 @@ import React from "react";
 import "./Styles.css";
 import { useDispatch, useSelector } from "react-redux";
 import MainCartLIst from "./MainCartLIst";
-import { cleaCart } from "../features/cart/cartSlice";
 import { openModel } from "../features/model/model";
 
 const CartList = () => {
