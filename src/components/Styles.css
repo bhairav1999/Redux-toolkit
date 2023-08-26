@@ -45,7 +45,7 @@ nav {
 
 .product_list_name {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 10px 150px;
 }
 
 .product_list_name1 {
@@ -57,12 +57,12 @@ nav {
 .section {
   display: flex;
   justify-content: space-between;
-  margin: 40px 500px;
+  margin: 10px 180px;
 }
 .section1 {
   display: flex;
   justify-content: space-between;
-  margin: 10px 500px 60px 550px;
+  margin: 10px 180px;
 }
 .leftSide {
   display: flex;
@@ -102,7 +102,7 @@ nav {
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.319);
-  position: absolute;
+  position: fixed;
 }
 
 .wrapper {
@@ -142,4 +142,17 @@ nav {
   border-radius: 10px;
   color: white;
   background-color: red;
+}
+
+@media (max-width: 768px) {
+  .section {
+    margin: 20px;
+  }
+  .section1 {
+    margin: 20px;
+  }
+
+  nav {
+    padding: 0 11px;
+  }
 }

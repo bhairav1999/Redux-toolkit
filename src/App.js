@@ -27,6 +27,7 @@ function App() {
       {isOpen && <Modal />}
 
       <CartAdd />
+      <h5 className="Bhairav">- Bhairav Karande</h5>
     </>
   );
 }
